@@ -1,0 +1,22 @@
+{
+  "name": "lingzi-cli",
+  "version": "1.0.0",
+  "description": "weite a vue template cli",
+  "main": "index.js",
+  "repository": "https://github.com/lingziyb/lingzi-cli.git",
+  "author": "赵苓利 <1101077695@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "lingzi": "bin/lingzi.js",
+    "lingzi-add": "bin/lingzi-add.js",
+    "lingzi-init": "bin/lingzi-init.js"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.0.1",
+    "ora": "^4.0.3"
+  }
+}

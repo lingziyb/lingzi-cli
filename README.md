@@ -1,2 +1,2 @@
 # lingzi-cli
-test a vue cli
+write a vue template cli.
